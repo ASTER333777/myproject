@@ -1,0 +1,11 @@
+practice\SampleTest.class
+practice\ReaddatafromPropertyfile.class
+com\crm\comcast\ContactTest\CreateContactWithOrgTest.class
+com\crm\concast\orgTest\CreateOrgTest.class
+com\crm\concast\orgTest\CreateOrgWithIndustryTypeTest.class
+practice\SelectQuery.class
+practice\SoftAssert.class
+com\crm\comcast\ContactTest\CreateContactWithOrgTestNGTest.class
+com\crm\concast\orgTest\CreateOrgWithIndustNameTestNGTest.class
+com\crm\comcast\ContactTest\CreateContactTest.class
+practice\CreateOrganization.class

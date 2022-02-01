@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="REGIONAL REGRESSION">
+  <test thread-count="5" name="Test">
+    <classes>
+    
+      <class name="com.crm.concast.orgTest.CreateOrgWithIndustNameTestNGTest">
+      	<methods>
+      		<include name="CreateOrgTest">
+      		</include>
+      	</methods>
+      	<methods>
+      		<include name="createOrgWithIndutriesTest">
+      		</include>
+      	</methods>
+      </class>
+      
+       <class name="com.crm.comcast.ContactTest.CreateContactWithOrgTestNGTest">
+      	<methods>
+      		<include name="CreateContactTest">
+      		</include>
+      	</methods>
+      	<methods>
+      		<include name="CreateContactwithOrgTest">
+      		</include>
+      	</methods>
+      </class>
+    </classes>
+  </test> 
+</suite> 

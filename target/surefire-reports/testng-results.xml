@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="4" total="6" passed="2">
+  <reporter-output>
+  </reporter-output>
+  <suite name="REGIONAL REGRESSION" duration-ms="51303" started-at="2022-02-01T15:40:31 IST" finished-at="2022-02-01T15:41:22 IST">
+    <groups>
+      <group name="REGRESSION TEST">
+        <method signature="CreateContactWithOrgTestNGTest.CreateContactwithOrgTest()[pri:0, instance:com.crm.comcast.ContactTest.CreateContactWithOrgTestNGTest@6adede5]" name="CreateContactwithOrgTest" class="com.crm.comcast.ContactTest.CreateContactWithOrgTestNGTest"/>
+        <method signature="CreateOrgWithIndustNameTestNGTest.createOrgWithIndutriesTest()[pri:0, instance:com.crm.concast.orgTest.CreateOrgWithIndustNameTestNGTest@69ea3742]" name="createOrgWithIndutriesTest" class="com.crm.concast.orgTest.CreateOrgWithIndustNameTestNGTest"/>
+      </group> <!-- REGRESSION TEST -->
+    </groups>
+    <test name="Test" duration-ms="51303" started-at="2022-02-01T15:40:31 IST" finished-at="2022-02-01T15:41:22 IST">
+      <class name="com.crm.concast.orgTest.CreateOrgWithIndustNameTestNGTest">
+        <test-method status="PASS" signature="configBS()[pri:0, instance:com.crm.concast.orgTest.CreateOrgWithIndustNameTestNGTest@69ea3742]" name="configBS" is-config="true" duration-ms="6" started-at="2022-02-01T15:40:31 IST" finished-at="2022-02-01T15:40:31 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- configBS -->
+        <test-method status="PASS" signature="configBC()[pri:0, instance:com.crm.concast.orgTest.CreateOrgWithIndustNameTestNGTest@69ea3742]" name="configBC" is-config="true" duration-ms="2862" started-at="2022-02-01T15:40:31 IST" finished-at="2022-02-01T15:40:34 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- configBC -->
+        <test-method status="PASS" signature="configBM()[pri:0, instance:com.crm.concast.orgTest.CreateOrgWithIndustNameTestNGTest@69ea3742]" name="configBM" is-config="true" duration-ms="3064" started-at="2022-02-01T15:40:34 IST" finished-at="2022-02-01T15:40:37 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- configBM -->
+        <test-method status="PASS" signature="createOrgWithIndutriesTest()[pri:0, instance:com.crm.concast.orgTest.CreateOrgWithIndustNameTestNGTest@69ea3742]" name="createOrgWithIndutriesTest" duration-ms="12617" started-at="2022-02-01T15:40:37 IST" finished-at="2022-02-01T15:40:50 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createOrgWithIndutriesTest -->
+        <test-method status="PASS" signature="configAM()[pri:0, instance:com.crm.concast.orgTest.CreateOrgWithIndustNameTestNGTest@69ea3742]" name="configAM" is-config="true" duration-ms="1746" started-at="2022-02-01T15:40:50 IST" finished-at="2022-02-01T15:40:51 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- configAM -->
+        <test-method status="PASS" signature="configAC()[pri:0, instance:com.crm.concast.orgTest.CreateOrgWithIndustNameTestNGTest@69ea3742]" name="configAC" is-config="true" duration-ms="702" started-at="2022-02-01T15:40:51 IST" finished-at="2022-02-01T15:40:52 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- configAC -->
+        <test-method status="PASS" signature="configAS()[pri:0, instance:com.crm.concast.orgTest.CreateOrgWithIndustNameTestNGTest@69ea3742]" name="configAS" is-config="true" duration-ms="0" started-at="2022-02-01T15:41:22 IST" finished-at="2022-02-01T15:41:22 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- configAS -->
+      </class> <!-- com.crm.concast.orgTest.CreateOrgWithIndustNameTestNGTest -->
+      <class name="com.crm.comcast.ContactTest.CreateContactWithOrgTestNGTest">
+        <test-method status="PASS" signature="configBC()[pri:0, instance:com.crm.comcast.ContactTest.CreateContactWithOrgTestNGTest@6adede5]" name="configBC" is-config="true" duration-ms="2346" started-at="2022-02-01T15:40:52 IST" finished-at="2022-02-01T15:40:54 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- configBC -->
+        <test-method status="PASS" signature="configBM()[pri:0, instance:com.crm.comcast.ContactTest.CreateContactWithOrgTestNGTest@6adede5]" name="configBM" is-config="true" duration-ms="2889" started-at="2022-02-01T15:40:54 IST" finished-at="2022-02-01T15:40:57 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- configBM -->
+        <test-method status="PASS" signature="CreateContactwithOrgTest()[pri:0, instance:com.crm.comcast.ContactTest.CreateContactWithOrgTestNGTest@6adede5]" name="CreateContactwithOrgTest" duration-ms="22487" started-at="2022-02-01T15:40:57 IST" finished-at="2022-02-01T15:41:20 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CreateContactwithOrgTest -->
+        <test-method status="PASS" signature="configAM()[pri:0, instance:com.crm.comcast.ContactTest.CreateContactWithOrgTestNGTest@6adede5]" name="configAM" is-config="true" duration-ms="1861" started-at="2022-02-01T15:41:20 IST" finished-at="2022-02-01T15:41:22 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- configAM -->
+        <test-method status="PASS" signature="configAC()[pri:0, instance:com.crm.comcast.ContactTest.CreateContactWithOrgTestNGTest@6adede5]" name="configAC" is-config="true" duration-ms="691" started-at="2022-02-01T15:41:22 IST" finished-at="2022-02-01T15:41:22 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- configAC -->
+      </class> <!-- com.crm.comcast.ContactTest.CreateContactWithOrgTestNGTest -->
+    </test> <!-- Test -->
+  </suite> <!-- REGIONAL REGRESSION -->
+</testng-results>

@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite thread-count="2" guice-stage="DEVELOPMENT" name="Failed suite [CrossBrowserExecution]" parallel="tests">
+  <test thread-count="2" name="TestRun-FireFox(failed)" parallel="tests">
+    <parameter name="browser" value="firefox"/>
+    <classes>
+      <class name="com.crm.concast.orgTest.CreateOrgTest">
+        <methods>
+          <include name="configAS"/>
+          <include name="configAC"/>
+          <include name="CreateOrgTest1"/>
+          <include name="configBC"/>
+          <include name="configBS"/>
+          <include name="configBM"/>
+          <include name="configAM"/>
+        </methods>
+      </class> <!-- com.crm.concast.orgTest.CreateOrgTest -->
+      <class name="com.crm.concast.orgTest.CreateOrgWithIndustryTypeTest">
+        <methods>
+          <include name="configAS"/>
+          <include name="configAC"/>
+          <include name="CreateOrgWithIndustryTypeTest1"/>
+          <include name="createOrgWithIndutriesTest"/>
+          <include name="configBC"/>
+          <include name="configBS"/>
+          <include name="configBM"/>
+          <include name="configAM"/>
+        </methods>
+      </class> <!-- com.crm.concast.orgTest.CreateOrgWithIndustryTypeTest -->
+      <class name="com.crm.concast.orgTest.CreateOrgWithIndustNameTestNGTest">
+        <methods>
+          <include name="configAS"/>
+          <include name="configAC"/>
+          <include name="createOrgWithIndutriesTest"/>
+          <include name="configBC"/>
+          <include name="configBS"/>
+          <include name="configBM"/>
+          <include name="CreateOrgTest"/>
+          <include name="configAM"/>
+        </methods>
+      </class> <!-- com.crm.concast.orgTest.CreateOrgWithIndustNameTestNGTest -->
+    </classes>
+  </test> <!-- TestRun-FireFox(failed) -->
+  <test thread-count="2" name="TestRun-Chrome(failed)" parallel="tests">
+    <parameter name="browser" value="chrome"/>
+    <classes>
+      <class name="com.crm.concast.orgTest.CreateOrgTest">
+        <methods>
+          <include name="configAS"/>
+          <include name="configAC"/>
+          <include name="CreateOrgTest1"/>
+          <include name="configBC"/>
+          <include name="configBS"/>
+          <include name="configBM"/>
+          <include name="configAM"/>
+        </methods>
+      </class> <!-- com.crm.concast.orgTest.CreateOrgTest -->
+      <class name="com.crm.concast.orgTest.CreateOrgWithIndustryTypeTest">
+        <methods>
+          <include name="configAS"/>
+          <include name="configAC"/>
+          <include name="CreateOrgWithIndustryTypeTest1"/>
+          <include name="createOrgWithIndutriesTest"/>
+          <include name="configBC"/>
+          <include name="configBS"/>
+          <include name="configBM"/>
+          <include name="configAM"/>
+        </methods>
+      </class> <!-- com.crm.concast.orgTest.CreateOrgWithIndustryTypeTest -->
+      <class name="com.crm.concast.orgTest.CreateOrgWithIndustNameTestNGTest">
+        <methods>
+          <include name="configAS"/>
+          <include name="configAC"/>
+          <include name="createOrgWithIndutriesTest"/>
+          <include name="configBC"/>
+          <include name="configBS"/>
+          <include name="configBM"/>
+          <include name="CreateOrgTest"/>
+          <include name="configAM"/>
+        </methods>
+      </class> <!-- com.crm.concast.orgTest.CreateOrgWithIndustNameTestNGTest -->
+    </classes>
+  </test> <!-- TestRun-Chrome(failed) -->
+</suite> <!-- Failed suite [CrossBrowserExecution] -->

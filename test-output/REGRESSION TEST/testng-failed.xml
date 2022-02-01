@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [REGRESSION TEST]">
+  <test thread-count="5" name="Test(failed)">
+    <groups>
+      <run>
+        <include name="REGRESSION TEST"/>
+      </run>
+    </groups>
+    <classes>
+      <class name="com.crm.concast.orgTest.CreateOrgWithIndustNameTestNGTest">
+        <methods>
+          <include name="configAS"/>
+          <include name="configAC"/>
+          <include name="createOrgWithIndutriesTest"/>
+          <include name="configBS"/>
+          <include name="configBC"/>
+          <include name="configBM"/>
+          <include name="configAM"/>
+        </methods>
+      </class> <!-- com.crm.concast.orgTest.CreateOrgWithIndustNameTestNGTest -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [REGRESSION TEST] -->

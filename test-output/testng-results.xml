@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="32314" started-at="2022-01-26T18:30:43Z" finished-at="2022-01-26T18:31:15Z">
+    <groups>
+      <group name="SMOKE TEST">
+        <method signature="CreateOrgTest.CreateOrgTest1()[pri:0, instance:com.crm.concast.orgTest.CreateOrgTest@39c0f4a]" name="CreateOrgTest1" class="com.crm.concast.orgTest.CreateOrgTest"/>
+      </group> <!-- SMOKE TEST -->
+    </groups>
+    <test name="Default test" duration-ms="32314" started-at="2022-01-26T18:30:43Z" finished-at="2022-01-26T18:31:15Z">
+      <class name="com.crm.concast.orgTest.CreateOrgTest">
+        <test-method status="PASS" signature="configBS()[pri:0, instance:com.crm.concast.orgTest.CreateOrgTest@39c0f4a]" name="configBS" is-config="true" duration-ms="4" started-at="2022-01-26T18:30:43Z" finished-at="2022-01-26T18:30:43Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- configBS -->
+        <test-method status="PASS" signature="configBC()[pri:0, instance:com.crm.concast.orgTest.CreateOrgTest@39c0f4a]" name="configBC" is-config="true" duration-ms="5893" started-at="2022-01-26T18:30:43Z" finished-at="2022-01-26T18:30:49Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- configBC -->
+        <test-method status="PASS" signature="configBM()[pri:0, instance:com.crm.concast.orgTest.CreateOrgTest@39c0f4a]" name="configBM" is-config="true" duration-ms="6128" started-at="2022-01-26T18:30:49Z" finished-at="2022-01-26T18:30:55Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- configBM -->
+        <test-method status="PASS" signature="CreateOrgTest1()[pri:0, instance:com.crm.concast.orgTest.CreateOrgTest@39c0f4a]" name="CreateOrgTest1" duration-ms="17876" started-at="2022-01-26T18:30:55Z" finished-at="2022-01-26T18:31:13Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CreateOrgTest1 -->
+        <test-method status="PASS" signature="configAM()[pri:0, instance:com.crm.concast.orgTest.CreateOrgTest@39c0f4a]" name="configAM" is-config="true" duration-ms="1704" started-at="2022-01-26T18:31:13Z" finished-at="2022-01-26T18:31:14Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- configAM -->
+        <test-method status="PASS" signature="configAC()[pri:0, instance:com.crm.concast.orgTest.CreateOrgTest@39c0f4a]" name="configAC" is-config="true" duration-ms="692" started-at="2022-01-26T18:31:14Z" finished-at="2022-01-26T18:31:15Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- configAC -->
+        <test-method status="PASS" signature="configAS()[pri:0, instance:com.crm.concast.orgTest.CreateOrgTest@39c0f4a]" name="configAS" is-config="true" duration-ms="0" started-at="2022-01-26T18:31:15Z" finished-at="2022-01-26T18:31:15Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- configAS -->
+      </class> <!-- com.crm.concast.orgTest.CreateOrgTest -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
